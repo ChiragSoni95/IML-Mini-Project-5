@@ -22,7 +22,7 @@ from sklearn.tree import DecisionTreeClassifier
 print("Loading Data......")
 print(" ")
 
-df = pd.read_csv('./responses.csv')
+df = pd.read_csv('./Data/young-people-survey/responses.csv')
 
 
 #Dropping rows with NaN value
